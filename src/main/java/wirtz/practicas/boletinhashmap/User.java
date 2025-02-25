@@ -9,50 +9,50 @@ package wirtz.practicas.boletinhashmap;
  * @author nicolas.gareacidre
  */
 public class User {
-    private String name;
+    private String nombre;
     private String password;
-    private String surnames;
+    private String apellidos;
     private String dni;
-    private String direction;
+    private String direccion;
 
-    public User(String name, String password, String surnames, String dni, String direction) {
-        this.name = name;
+    public User(String nombre, String password, String apellidos, String dni, String direccion) {
+        this.nombre = nombre;
         this.password = password;
-        this.surnames = surnames;
+        this.apellidos = apellidos;
         this.dni = dni;
-        this.direction = direction;
+        this.direccion = direccion;
     }
 
-    public String getName() {
-        return name;
+    public String getNombre() {
+        return nombre;
     }
 
     public String getPassword() {
         return password;
     }
 
-    public String getSurnames() {
-        return surnames;
+    public String getApellidos() {
+        return apellidos;
     }
 
     public String getDni() {
         return dni;
     }
 
-    public String getDirection() {
-        return direction;
+    public String getDireccion() {
+        return direccion;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public void setPassword(String password) {
         this.password = password;
     }
 
-    public void setSurnames(String surnames) {
-        this.surnames = surnames;
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
     }
 
     public void setDni(String dni) {
@@ -60,7 +60,7 @@ public class User {
     }
 
     public void setDirection(String direction) {
-        this.direction = direction;
+        this.direccion = direction;
     }
     
     
